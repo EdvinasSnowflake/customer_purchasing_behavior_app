@@ -31,7 +31,7 @@ def create_snowflake_connection():
 # Function to fetch data from the Snowflake customers table
 def fetch_customers_data():
     conn = create_snowflake_connection()
-    query = "SELECT * FROM customers"
+    query = "SELECT * FROM customers.schema.customers"
     cur = conn.cursor()
     cur.execute(query)
     data = cur.fetchall()
