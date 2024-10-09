@@ -3,7 +3,7 @@ import snowflake.connector
 import pandas as pd
 
 # Title of the Streamlit app
-st.title("Snowflake Customers Table Viewer")
+st.title("Customers Purchasing Behaviour")
 
 # Snowflake connection details
 # You can replace the placeholders with your Snowflake credentials
