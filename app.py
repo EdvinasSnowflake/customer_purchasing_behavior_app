@@ -36,7 +36,7 @@ def fetch_customers_data():
     return pd.DataFrame(data, columns=columns)
 
 # Button to load the customers data
-if st.button("Load Customers Data"):
+if st.button("Load Customers Data :)"):
     st.text("Fetching data from Snowflake...")
     
     # Fetch customers data from Snowflake
