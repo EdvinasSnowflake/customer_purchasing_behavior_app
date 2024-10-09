@@ -7,6 +7,7 @@ st.title("Customers Purchasing Behaviour")
 
 # Snowflake connection details
 # You can replace the placeholders with your Snowflake credentials
+@st.cache_resource
 def create_snowflake_connection():
     conn = snowflake.connector.connect(
         user=st.secrets["snowflake"]["user"],
